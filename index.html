@@ -29,6 +29,24 @@
 				position: relative;
 				z-index: 1;
 			}
+
+/* Same-size, smaller logos */
+.edu-logo{
+  display: inline-flex;
+  width: 200px;     /* change this */
+  height: 200px;    /* and this */
+  align-items: center;
+  justify-content: center;
+}
+
+.edu-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* keeps full logo visible */
+  display: block;
+}
+
+
 		</style>
 	</head>
 
@@ -50,7 +68,7 @@
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="#intro" class="active">About Me</a></li>
+					<li><a href="#intro">About Me</a></li>
 					<li><a href="#first">Education</a></li>
 					<li><a href="#second">Skills</a></li>
 					<li><a href="#cta">Get Started</a></li>
@@ -84,15 +102,16 @@
 					</header>
 					<ul class="features">
 						<li>
-							<span class="icon solid major style1 fa-code"></span>
+							<span class="edu-logo"><img src="images/University_of_Science_&_Culture_logo.gif" alt="" /></span>
 							<h3>B.Sc. Degree</h3>
 							<p>B.Sc. in Electrical Engineering, University of Science and Culture, Tehran, Iran.</br>2020 - 2023</p>
-						</li>
-						<li>
-							<span class="icon major style3 fa-copy"></span>
+							</li>
+
+							<li>
+							<span class="edu-logo"><img src="images/University_of_Tehran_logo.svg" alt="" /></span>
 							<h3>M.Sc. Degree</h3>
 							<p>M.Sc. in Electrical Engineering-Digital Electronic Systems, University of Tehran, Tehran, Iran.</br>2023 – Present</p>
-						</li>
+							</li>
 					</ul>
 					<footer class="major">
 						<ul class="actions special"></ul>
@@ -216,3 +235,4 @@
 
 	</body>
 </html>
+```
