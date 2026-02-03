@@ -55,19 +55,20 @@
 				padding: 0.25rem 0;
 			}
 
-			.project-thumb {
-				max-width: 320px;   /* change this: 250, 300, 400... */
-				width: 100%;
-				height: auto;
-				border-radius: 8px; /* optional */
-				cursor: zoom-in;
-			}
+			.project-thumb{
+  max-width: 320px;   /* change this: 250, 300, 400... */
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* optional */
+  cursor: zoom-in;
+}
 
-			/* Optional: nice hover */
-			.project-thumb:hover {
-				transform: scale(1.02);
-				transition: transform 0.15s ease;
-			}
+/* Optional: nice hover */
+.project-thumb:hover{
+  transform: scale(1.02);
+  transition: transform 0.15s ease;
+}
+
 		</style>
 	</head>
 
@@ -94,6 +95,7 @@
 					<li><a href="#second">Skills</a></li>
 					<li><a href="#cta">Projects</a></li>
 					<li><a href="#contact">Contact Me</a></li>
+
 				</ul>
 			</nav>
 
@@ -190,136 +192,162 @@
 				</section>
 
 				<!-- Get Started -->
-				<!-- Get Started -->
-				<section id="cta" class="main">
-					<header class="major">
-						<center><h2>Projects</h2></center>
-					</header>
+<!-- Get Started -->
+<section id="cta" class="main">
+	<header class="major">
+		<center><h2>Projects</h2></center>
+	</header>
 
-					<!-- Project 1 -->
-					<div class="spotlight">
-						<div class="content">
-							<h3>TS Packet Analyzer</h3>
-							<p>
-								TS-Packet-Analyser is a tool for analyzing MPEG-2 Transport Stream (TS) packets. This tool provides detailed insights into the structure and content of TS packets, including PAT, PMT, and other tables, making it useful for debugging and learning about MPEG-2 TS streams. This project was developed as part of an internship.
-							</p>
+	<!-- Project 1 -->
+	<div class="spotlight">
+		<div class="content">
+			<h3>TS Packet Analyzer</h3>
+			<p>
+				TS-Packet-Analyser is a tool for analyzing MPEG-2 Transport Stream (TS) packets. This tool provides detailed insights into the structure and content of TS packets, including PAT, PMT, and other tables, making it useful for debugging and learning about MPEG-2 TS streams. This project was developed as part of an internship.
+			</p>
 
-							<ul class="actions special">
-								<li><a href="https://github.com/Soheilnader/TS-Packet-Analyser" class="button primary">More Info</a></li>
-							</ul>
+			<ul class="actions special">
+				<li><a href="https://github.com/Soheilnader/TS-Packet-Analyser" class="button primary">More Info</a></li>
+			</ul>
 
-							<hr>
-						</div>
+			<hr>
+		</div>
 
-						<a href="https://raw.githubusercontent.com/Soheilnader/TS-Packet-Analyser/refs/heads/main/docs/images/MainWindow.png" target="_blank" rel="noopener noreferrer">
-							<img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/TS-Packet-Analyser/refs/heads/main/docs/images/MainWindow.png" alt="TS Packet Analyzer screenshot" />
-						</a>
 
-						<hr>
-					</div>
+  <a href="https://raw.githubusercontent.com/Soheilnader/TS-Packet-Analyser/refs/heads/main/docs/images/MainWindow.png" target="_blank" rel="noopener noreferrer">
+    <img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/TS-Packet-Analyser/refs/heads/main/docs/images/MainWindow.png" alt="TS Packet Analyzer screenshot" />
+  </a>
 
-					<!-- Project 2 (NEW) -->
-					<div class="spotlight">
-						<div class="content">
-							<h3>Simple CNN Pattern Finder in SystemC (RTL)</h3>
-							<p>
-								A very small CNN-style hardware design in SystemC that detects specific patterns inside a 4×4 input image. The “Pattern Finder Circuit” contains three convolution blocks (each using a 3×3 kernel), followed by ReLU and 2×2 max pooling, then a final logic stage that outputs which pattern was found. The design includes a small RAM to store the image and a start/done control flow, with the convolution blocks running concurrently.
-							</p>
 
-							<ul class="actions special">
-								<li><a href="https://github.com/Soheilnader/Simple-CNN-with-systemc-RTL" class="button primary">More Info</a></li>
-							</ul>
+		<hr>
+	</div>
 
-							<hr>
-						</div>
+	<!-- Project 2 (NEW) -->
+	<div class="spotlight">
+		<div class="content">
+			<h3>Simple CNN Pattern Finder in SystemC (RTL)</h3>
+			<p>
+				A very small CNN-style hardware design in SystemC that detects specific patterns inside a 4×4 input image. The “Pattern Finder Circuit” contains three convolution blocks (each using a 3×3 kernel), followed by ReLU and 2×2 max pooling, then a final logic stage that outputs which pattern was found. The design includes a small RAM to store the image and a start/done control flow, with the convolution blocks running concurrently.
+			</p>
 
-						<a href="https://raw.githubusercontent.com/Soheilnader/Simple-CNN-with-systemc-RTL/refs/heads/main/doc/image/CONV_DP(1).jpg" target="_blank" rel="noopener noreferrer">
-							<img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/Simple-CNN-with-systemc-RTL/refs/heads/main/doc/image/CONV_DP(1).jpg" alt="TS Packet Analyzer screenshot" />
-						</a>
+			<ul class="actions special">
+				<li><a href="https://github.com/Soheilnader/Simple-CNN-with-systemc-RTL" class="button primary">More Info</a></li>
+			</ul>
 
-						<hr>
-					</div>
+			<hr>
+		</div>
 
-					<!-- Project 3 (NEW) -->
-					<div class="spotlight">
-						<div class="content">
-							<h3>LM741 Op-Amp (BJT Transistor-Level) in HSPICE</h3>
-							<p>
-								A transistor-level implementation of the classic LM741 operational amplifier using BJT devices, simulated in HSPICE. The project focuses on building the internal stages from discrete transistors and validating the design through SPICE simulations (e.g., operating point and time-domain behavior) to study how the 741 works under the hood.
-							</p>
+  <a href="https://raw.githubusercontent.com/Soheilnader/Simple-CNN-with-systemc-RTL/refs/heads/main/doc/image/CONV_DP(1).jpg" target="_blank" rel="noopener noreferrer">
+    <img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/Simple-CNN-with-systemc-RTL/refs/heads/main/doc/image/CONV_DP(1).jpg" alt="TS Packet Analyzer screenshot" />
+  </a>
 
-							<ul class="actions special">
-								<li><a href="https://github.com/Soheilnader/HSPICE" class="button primary">More Info</a></li>
-							</ul>
+		<hr>
+	</div>
 
-							<hr>
-						</div>
+	<!-- Project 3 (NEW) -->
+	<div class="spotlight">
+		<div class="content">
+			<h3>Simple MacroPad</h3>
+			<p>
+A custom STM32-based MacroPad with a PyQt5 desktop configurator that lets you assign each of the 12 keys to either a key-combination (up to 3 keys), a text macro, an audio trigger (mp3), or launching an executable. All settings are saved per-button in a config.ini file, and the UI includes live button preview with customizable background/font/hover colors plus quick reset-to-default options.
+		</p>
 
-						<a href="https://raw.githubusercontent.com/Soheilnader/HSPICE/refs/heads/main/lm741/LM741_SCH.PNG?token=GHSAT0AAAAAADUHC7FAMSYEDK6UIH4TNLI62MCQCWQ" target="_blank" rel="noopener noreferrer">
-							<img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/HSPICE/refs/heads/main/lm741/LM741_SCH.PNG?token=GHSAT0AAAAAADUHC7FAMSYEDK6UIH4TNLI62MCQCWQ" alt="TS Packet Analyzer screenshot" />
-						</a>
+			<ul class="actions special">
+				<li><a href="https://github.com/Soheilnader/Simple_MacroPad" class="button primary">More Info</a></li>
+			</ul>
 
-						<hr>
-					</div>
+			<hr>
+		</div>
 
-				</section>
+  <a href="https://github.com/Soheilnader/Soheilnader.github.io/blob/main/images/macroapd.png?raw=true" target="_blank" rel="noopener noreferrer">
+    <img class="project-thumb" src="https://github.com/Soheilnader/Soheilnader.github.io/blob/main/images/macroapd.png?raw=true" alt="TS Packet Analyzer screenshot" />
+  </a>
+
+		<hr>
+	</div>
+
+	<!-- Project 3 (NEW) -->
+	<div class="spotlight">
+		<div class="content">
+			<h3>LM741 Op-Amp (BJT Transistor-Level) in HSPICE</h3>
+			<p>
+			A transistor-level implementation of the classic LM741 operational amplifier using BJT devices, simulated in HSPICE. The project focuses on building the internal stages from discrete transistors and validating the design through SPICE simulations (e.g., operating point and time-domain behavior) to study how the 741 works under the hood.			</p>
+
+			<ul class="actions special">
+				<li><a href="https://github.com/Soheilnader/HSPICE" class="button primary">More Info</a></li>
+			</ul>
+
+			<hr>
+		</div>
+
+  <a href="https://raw.githubusercontent.com/Soheilnader/HSPICE/refs/heads/main/lm741/LM741_SCH.PNG?token=GHSAT0AAAAAADUHC7FAMSYEDK6UIH4TNLI62MCQCWQ" target="_blank" rel="noopener noreferrer">
+    <img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/HSPICE/refs/heads/main/lm741/LM741_SCH.PNG?token=GHSAT0AAAAAADUHC7FAMSYEDK6UIH4TNLI62MCQCWQ" alt="TS Packet Analyzer screenshot" />
+  </a>
+
+		<hr>
+	</div>
+
+</section>
+
 
 			</div>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<section>
-					<h2>Downloads</h2>
-					<p>
-						Grab a PDF copy of my resume and a short portfolio overview.
-					</p>
-					<ul class="actions">
-						<li><a href="files/Soheil-Nadernezhad-CV.pdf" class="button">Download CV</a></li>
-					</ul>
-				</section>
+<!-- Footer -->
+<footer id="footer">
+	<section>
+	<h2>Downloads</h2>
+	<p>
+		Grab a PDF copy of my resume and a short portfolio overview.
+	</p>
+	<ul class="actions">
+		<li><a href="files/Soheil-Nadernezhad-CV.pdf" class="button">Download CV</a></li>
+	</ul>
+</section>
 
-				<section id="contact">
-					<h2>Contact</h2>
-					<dl class="alt">
-						<dt>Email</dt>
-						<dd><a href="mailto:Soheil.nader@ut.ac.ir">Soheil.nader@ut.ac.ir</a></dd>
 
-						<dt>LinkedIn</dt>
-						<dd><a href="https://www.linkedin.com/in/soheil-nadernezhad/" target="_blank" rel="noopener noreferrer">soheil-nadernezhad</a></dd>
+	<section id="contact">
+		<h2>Contact</h2>
+		<dl class="alt">
+			<dt>Email</dt>
+			<dd><a href="mailto:Soheil.nader@ut.ac.ir">Soheil.nader@ut.ac.ir</a></dd>
 
-						<dt>GitHub</dt>
-						<dd><a href="https://github.com/Soheilnader" target="_blank" rel="noopener noreferrer">Soheilnader</a></dd>
+			<dt>LinkedIn</dt>
+			<dd><a href="https://www.linkedin.com/in/soheil-nadernezhad/" target="_blank" rel="noopener noreferrer">soheil-nadernezhad</a></dd>
 
-						<dt>Stack Overflow</dt>
-						<dd><a href="https://stackoverflow.com/users/11983443/soheil-nader" target="_blank" rel="noopener noreferrer">soheil-nader</a></dd>
-					</dl>
+			<dt>GitHub</dt>
+			<dd><a href="https://github.com/Soheilnader" target="_blank" rel="noopener noreferrer">Soheilnader</a></dd>
 
-					<ul class="icons">
-						<li>
-							<a href="https://www.linkedin.com/in/soheil-nadernezhad/" class="icon brands fa-linkedin alt" target="_blank" rel="noopener noreferrer">
-								<span class="label">LinkedIn</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://github.com/Soheilnader" class="icon brands fa-github alt" target="_blank" rel="noopener noreferrer">
-								<span class="label">GitHub</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://stackoverflow.com/users/11983443/soheil-nader" class="icon brands fa-stack-overflow alt" target="_blank" rel="noopener noreferrer">
-								<span class="label">Stack Overflow</span>
-							</a>
-						</li>
-						<li>
-							<a href="mailto:Soheil.nader@ut.ac.ir" class="icon solid fa-envelope alt">
-								<span class="label">Email</span>
-							</a>
-						</li>
-					</ul>
-				</section>
+			<dt>Stack Overflow</dt>
+			<dd><a href="https://stackoverflow.com/users/11983443/soheil-nader" target="_blank" rel="noopener noreferrer">soheil-nader</a></dd>
+		</dl>
 
-				<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-			</footer>
+		<ul class="icons">
+			<li>
+				<a href="https://www.linkedin.com/in/soheil-nadernezhad/" class="icon brands fa-linkedin alt" target="_blank" rel="noopener noreferrer">
+					<span class="label">LinkedIn</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://github.com/Soheilnader" class="icon brands fa-github alt" target="_blank" rel="noopener noreferrer">
+					<span class="label">GitHub</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://stackoverflow.com/users/11983443/soheil-nader" class="icon brands fa-stack-overflow alt" target="_blank" rel="noopener noreferrer">
+					<span class="label">Stack Overflow</span>
+				</a>
+			</li>
+			<li>
+				<a href="mailto:Soheil.nader@ut.ac.ir" class="icon solid fa-envelope alt">
+					<span class="label">Email</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+	<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+</footer>
+
 
 		</div>
 
