@@ -46,6 +46,14 @@
   display: block;
 }
 
+#second ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#second ul li {
+  padding: 0.25rem 0;
+}
 
 		</style>
 	</head>
@@ -71,7 +79,7 @@
 					<li><a href="#intro">About Me</a></li>
 					<li><a href="#first">Education</a></li>
 					<li><a href="#second">Skills</a></li>
-					<li><a href="#cta">Get Started</a></li>
+					<li><a href="#cta">Projects</a></li>
 				</ul>
 			</nav>
 
@@ -119,43 +127,76 @@
 				</section>
 
 				<!-- Second Section -->
-				<section id="second" class="main special">
-					<header class="major">
-						<h2>Skills</h2>
-						<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-						posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-					</header>
+<section id="second" class="main special">
+  <header class="major">
+    <h2>Skills</h2>
+    <p>Tools and languages I use for digital design, embedded systems, and engineering workflows.</p>
+  </header>
 
-					<p class="content">
-						Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus.
-						Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem,
-						sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus
-						semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis
-						et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque.
-						Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.
-					</p>
+  <div class="content">
+    <div class="row">
+      <div class="col-6 col-12-medium">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>C</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>Verilog</li>
+          <li>VHDL</li>
+          <li>SystemC</li>
+        </ul>
+      </div>
 
-					<footer class="major">
-						<ul class="actions special">
-							<li><a href="generic.html" class="button">Learn More</a></li>
-						</ul>
-					</footer>
-				</section>
+      <div class="col-6 col-12-medium">
+        <h3>Engineering</h3>
+        <ul>
+          <li>Catapult</li>
+          <li>Quartus</li>
+          <li>ModelSim</li>
+          <li>Cadence SoC Encounter</li>
+          <li>Factory I/O</li>
+          <li>Altium Designer</li>
+          <li>NI Multisim</li>
+          <li>SPICE</li>
+          <li>STM32 Cube IDE</li>
+          <li>AVR Microcontroller Programming</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="major">
+    <ul class="actions special">
+      <li><a href="generic.html" class="button">Learn More</a></li>
+    </ul>
+  </footer>
+</section>
 
 				<!-- Get Started -->
-				<section id="cta" class="main special">
+				<section id="cta" class="main">
+											<div class="content">
+
 					<header class="major">
-						<h2>Congue imperdiet</h2>
-						<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-						posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+						<center><h2>Projects</h2></center>
+
 					</header>
+								<h3>TS Packet Analyzer</h3>
+						<p>TS-Packet-Analyser is a tool for analyzing MPEG-2 Transport Stream (TS) packets. This tool provides detailed insights into the structure and content of TS packets, including PAT, PMT, and other tables, making it useful for debugging and learning about MPEG-2 TS streams. This project was developed as part of an internship.
+
+</p>
+
+						<hr>
 					<footer class="major">
 						<ul class="actions special">
 							<li><a href="generic.html" class="button primary">Get Started</a></li>
 							<li><a href="generic.html" class="button">Learn More</a></li>
 						</ul>
 					</footer>
+					</div>
 				</section>
+
+
 
 			</div>
 
