@@ -54,6 +54,21 @@
 			#second ul li {
 				padding: 0.25rem 0;
 			}
+
+			.project-thumb{
+  max-width: 320px;   /* change this: 250, 300, 400... */
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* optional */
+  cursor: zoom-in;
+}
+
+/* Optional: nice hover */
+.project-thumb:hover{
+  transform: scale(1.02);
+  transition: transform 0.15s ease;
+}
+
 		</style>
 	</head>
 
@@ -196,34 +211,36 @@
 			<hr>
 		</div>
 
-		<span class="image">
-			<img src="https://raw.githubusercontent.com/Soheilnader/TS-Packet-Analyser/refs/heads/main/docs/images/MainWindow.png" alt="" />
-		</span>
+
+  <a href="https://raw.githubusercontent.com/Soheilnader/TS-Packet-Analyser/refs/heads/main/docs/images/MainWindow.png" target="_blank" rel="noopener noreferrer">
+    <img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/TS-Packet-Analyser/refs/heads/main/docs/images/MainWindow.png" alt="TS Packet Analyzer screenshot" />
+  </a>
+
 
 		<hr>
 	</div>
 
 	<!-- Project 2 (NEW) -->
-	<!-- <div class="spotlight">
+	<div class="spotlight">
 		<div class="content">
-			<h3>PROJECT TITLE HERE</h3>
+			<h3>Simple CNN Pattern Finder in SystemC (RTL)</h3>
 			<p>
-				PROJECT DESCRIPTION HERE (what it does, what you used, why it matters).
+				A very small CNN-style hardware design in SystemC that detects specific patterns inside a 4×4 input image. The “Pattern Finder Circuit” contains three convolution blocks (each using a 3×3 kernel), followed by ReLU and 2×2 max pooling, then a final logic stage that outputs which pattern was found. The design includes a small RAM to store the image and a start/done control flow, with the convolution blocks running concurrently.
 			</p>
 
 			<ul class="actions special">
-				<li><a href="PROJECT LINK HERE" class="button primary">More Info</a></li>
+				<li><a href="https://github.com/Soheilnader/Simple-CNN-with-systemc-RTL" class="button primary">More Info</a></li>
 			</ul>
 
 			<hr>
 		</div>
 
-		<span class="image">
-			<img src="PROJECT IMAGE LINK HERE" alt="" />
-		</span>
+  <a href="https://raw.githubusercontent.com/Soheilnader/Simple-CNN-with-systemc-RTL/refs/heads/main/doc/image/CONV_DP(1).jpg" target="_blank" rel="noopener noreferrer">
+    <img class="project-thumb" src="https://raw.githubusercontent.com/Soheilnader/Simple-CNN-with-systemc-RTL/refs/heads/main/doc/image/CONV_DP(1).jpg" alt="TS Packet Analyzer screenshot" />
+  </a>
 
 		<hr>
-	</div> -->
+	</div>
 </section>
 
 
